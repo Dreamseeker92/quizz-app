@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adding 2 Numbers | Happy Learning!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  </head>
+<body onload="playGame()">
+
+<div>
+	<h1>Adding Game</h1>
+
+	<p id="demo">In this lecture, we will cover the game to add 2 numbers.</p>
+</div>
+<hr>
+<div class="quiz">
+    <div class="quiz-content"></div>
+    <div class="question">
+        What is a sum of <span class="text-info" id="field1">5</span>  and <span class="text-info" id="field2">5</span>?
+    </div>
+    <div class="options">
+        <div class="fields" >
+            <div class="field-block" id="option-1" onclick="checkAnswer(this)">
+                10
+            </div>
+        </div>
+            <div class="fields"  >
+                <div class="field-block" id="option-2" onclick="checkAnswer(this)">
+                    10
+                </div>
+            </div>
+            <div class="fields"  >
+                <div class="field-block" id="option-3" onclick="checkAnswer(this)">
+                    10
+                </div>
+            </div>
+            <div class="fields" >
+                <div class="field-block" id="option-4" onclick="checkAnswer(this)">
+                    10
+                </div>
+            </div>
+
+
+
+    </div>
+    <div class="after hide" id ='after'>
+
+    </div>
+    <div class="play-again" onclick="playAgain()">
+        <a class="button">Play Again</a>
+    </div>
+</div>
+<script src="app.js">
+
+
+	
+</script>
+
+</body>
+</html>
